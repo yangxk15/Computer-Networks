@@ -1,0 +1,5 @@
+sudo dd bs=1M if=2016-05-10-raspbian-jessie-lite.img of=/dev/mmcblk0 && sync    //putting the image on the rasberry pi
+wpa_passphrase piAP cs60proj // the connection you want it ot eventually have
+paste the network{} into the wpa_supplicant.conf (path = /media/shanzae/f39781f6-b968-4738-93ef-4d1af6861b99/etc/wpa_supplicant)
+now ssh!
+
